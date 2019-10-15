@@ -6,7 +6,7 @@ export default function Layout(props) {
     <div>
         <Head>
           <title>Kasih Nusantara</title>
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+          {/* <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossOrigin="anonymous" /> */}
           <meta property="og:title" content={props.metaTitle ? props.metaTitle : "Kasih Nusantara Dummy"} />
           <meta property="og:url" content={props.metaUrl ? props.metaUrl : "Kasih Nusantara Dummy"} />
           <meta property="og:description" content={props.metaDescription ? props.metaDescription : "Kasih Nusantara Dummy"}/>
